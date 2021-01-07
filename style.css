@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("background3.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.bg-dark {
+    background: rgba(0,0,0, .7) !important;
+}
+
+.top-bar a {
+    text-decoration: none;
+}
+.navbar-brand img {
+    height: 3rem;
+}
+.navbar {
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+/*.nav-item {
+    padding: .5rem;
+}
+.nav-link {
+    color: #5b5555;
+*/
+
+.Log-in-form {
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 4% auto 0;
+    text-align: center;
+}
+.Log-in-form h1 {
+    color:#1c8adb;
+    margin-bottom: 30px;
+}
+
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+button {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.login-btn {
+    background-color: #1c8adb;
+}
+
+a {
+    text-decoration: none;
+}
+hr {
+    margin-top:20px;
+    width: 80%;
+    background-color: #333;
+}
+.or {
+    background: #fff;
+    width: 30px;
+    margin: -29px auto 10px;
+}
+
+.Add-product-form {
+    width: 600px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 4% auto 0;
+    text-align: left;
+}
+.Delete-product-form {
+    width: 800px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 4% auto 0;
+    text-align: left;
+}
+
+.Add-product-form h1 {
+    color: #1c8adb;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.data-product-form {
+    width: 800px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 4% auto 0;
+    text-align: center;
+}
+
+.delete-btn {
+    width: 30%;
+    background-color:#1c8adb;
+    text-align: center;
+}
+.Delete-product-form h1 {
+    color: #1c8adb;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.load-more-btn {
+    width: 30%;
+    background-color:#1c8adb;
+    text-align: center;
+    margin: 10px 250px;
+}
+
+.errlabel {color:red};
+
+/*---slider---*/
+
+
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+header .carousel-inner .item {
+	height: 100vh;
+}
+.navbar-inverse {
+	background: rgba(0,0,0, .7) !important;
+}
+.navbar-inverse .navbar-brand {
+	color: #fff;
+	font-size: 30px;
+	padding: 35px 15px;
+	font-weight: 700;
+}
+.nav.navbar-nav.navbar-right {
+	margin: 25px 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+	padding: 10px 15px;
+	font-weight: 700;
+}
+.banner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.carousel-caption {
+	padding-bottom: 250px;
+	font-family: poppins;
+}
+.carousel-caption h2 {
+	font-size: 70px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.carousel-caption h2 span {
+	color: limegreen;
+}
+.carousel-caption a {
+	background: limegreen;
+	padding: 15px 35px;
+	display: inline-block;
+	margin-top: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 25px;
+}
+.carousel-control.right {
+	background-image: none;
+}
+.carousel-control.left {
+	background-image: none;
+}
+.carousel-indicators .active {
+	background-color: #EDBB00;
+	border-color: #EDBB00;
+}
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		padding-bottom: 350px;
+	}
+	.carousel-caption h2 {
+		font-size: 50px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-inverse .navbar-brand {
+		font-size: 30px;
+		padding: 20px 15px;
+	}
+	.navbar-collapse {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.carousel-caption {
+		padding-bottom: 120px;
+	}
+	.carousel-caption h2 {
+		font-size: 25px;
+	}
+	.carousel-caption h3 {
+		font-size: 18px;
+	}
+	.carousel-caption a {
+		padding: 10px 25px;
+	}
+}
+
+.pdes {
+    height:200px;
+}
